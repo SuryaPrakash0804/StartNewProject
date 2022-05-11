@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MedXPlain</string>
+
+
+
+    <string name="internet_error">Please check your Internet connection!</string>
+
+
 </resources>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlProgress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:clickable="false"
+    android:background="@android:color/transparent"
+    android:visibility="visible">
+
+
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/progress_wheel"
+        android:layout_width="@dimen/dp70"
+        android:layout_height="@dimen/dp70"
+        android:indeterminateDrawable="@drawable/custom_progress"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDuration="1000"
+        android:indeterminateBehavior="repeat" />
+
+
+</RelativeLayout>
