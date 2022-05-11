@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.medxplain">
+    package="com.startProject">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
@@ -10,11 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MedXPlain">
-        <activity android:name="com.medxplain.ui.activity.Home_Activity"
+        <activity android:name="com.startProject.ui.activity.Home_Activity"
+            android:theme="@style/MyAppThemeWithBackground"
             android:exported="true">
 
         </activity>
-        <activity android:name=".ui.activity.Splash"
+        <activity android:name="com.startProject.ui.activity.Splash"
+            android:theme="@style/MyAppThemeWithBackground"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

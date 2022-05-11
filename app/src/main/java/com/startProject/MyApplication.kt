@@ -1,8 +1,8 @@
-package com.medxplain
+package com.startProject
 
 import android.app.Application
 import android.content.Context
-import com.medxplain.utils.LocaleHelper
+import com.startProject.utils.LocaleHelper
 import dagger.hilt.android.HiltAndroidApp
 
 

@@ -1,4 +1,4 @@
-package com.medxplain
+package com.startProject
 
 import org.junit.Test
 

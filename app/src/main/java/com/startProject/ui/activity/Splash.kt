@@ -1,20 +1,14 @@
-package com.medxplain.ui.activity
+package com.startProject.ui.activity
 
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import androidx.annotation.RequiresApi
-import androidx.constraintlayout.widget.ConstraintLayout
-import com.medxplain.BuildConfig
-import com.medxplain.databinding.ActivitySplashBinding
+
+import com.startProject.databinding.ActivitySplashBinding
 
 
 class Splash : BaseActivity(){
-
-
-
-
-    lateinit var root_layout:ConstraintLayout
 
     lateinit var binding: ActivitySplashBinding
 
@@ -27,13 +21,10 @@ class Splash : BaseActivity(){
 
 
 
-        binding.tvVersion.text="Version ${BuildConfig.VERSION_NAME}"
+       // binding.tvVersion.text="Version ${BuildConfig.VERSION_NAME}"
     }
 
-    override fun onStart() {
-        super.onStart()
-     //   permission()
-    }
+
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onResume() {

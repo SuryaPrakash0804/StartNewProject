@@ -1,4 +1,4 @@
-package com.medxplain.network
+package com.startProject.network
 
 sealed class ApiResult<out T> {
     data class Success<out T>(val data :T) : ApiResult<T>()

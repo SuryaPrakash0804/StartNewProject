@@ -1,23 +1,11 @@
-package com.medxplain.utils
+package com.startProject.utils
 
-import android.app.DatePickerDialog
 import android.content.Context
-import android.content.Intent
 import android.location.Location
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
-import android.net.Uri
 import android.os.Build
-import android.provider.Settings
-import android.provider.Settings.SettingNotFoundException
-import android.text.TextUtils
-import android.widget.TextView
-import androidx.appcompat.app.AlertDialog
-import com.medxplain.R
-
-import com.medxplain.pref.PrefsManager
-import java.text.SimpleDateFormat
-import java.util.*
+import com.startProject.R
 
 
 object Constants {

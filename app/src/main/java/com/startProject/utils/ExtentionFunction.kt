@@ -1,4 +1,4 @@
-package com.medxplain.utils
+package com.startProject.utils
 
 import android.app.Activity
 import android.content.Context
@@ -8,9 +8,9 @@ import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
-import com.medxplain.R
-import com.medxplain.network.ApiResult
-import com.medxplain.network.LoadingBox
+import com.startProject.R
+import com.startProject.network.ApiResult
+import com.startProject.network.LoadingBox
 
 
 fun Context.toast(message:String){

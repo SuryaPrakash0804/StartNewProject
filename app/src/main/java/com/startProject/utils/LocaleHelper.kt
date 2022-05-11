@@ -1,4 +1,4 @@
-package com.medxplain.utils
+package com.startProject.utils
 
 import android.annotation.TargetApi
 import android.content.Context

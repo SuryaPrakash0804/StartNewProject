@@ -1,7 +1,7 @@
-package com.medxplain.ui.activity
+package com.startProject.ui.activity
 
 import android.os.Bundle
-import com.medxplain.R
+import com.startProject.R
 
 class Home_Activity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

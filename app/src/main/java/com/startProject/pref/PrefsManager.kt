@@ -1,4 +1,4 @@
-package com.medxplain.pref
+package com.startProject.pref
 
 import android.content.Context
 import android.content.SharedPreferences

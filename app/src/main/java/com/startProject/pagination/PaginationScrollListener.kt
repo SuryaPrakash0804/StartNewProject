@@ -1,4 +1,4 @@
-package com.medxplain.pagination
+package com.startProject.pagination
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView

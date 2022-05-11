@@ -1,8 +1,8 @@
-package com.medxplain.network
+package com.startProject.network
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import com.medxplain.utils.Constants.BASE_URL
+import com.startProject.utils.Constants.BASE_URL
 
 
 import okhttp3.OkHttpClient

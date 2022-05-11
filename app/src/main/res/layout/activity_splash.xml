@@ -2,50 +2,50 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/root_layout"
-
+    android:background="@drawable/spalsh_bg"
     tools:context=".ui.activity.Splash">
 
    <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/ivlogo"
        android:layout_width="@dimen/dp150"
        android:layout_height="@dimen/dp150"
+       android:layout_marginTop="@dimen/dp60"
+       android:src="@drawable/logo"
        app:layout_constraintLeft_toLeftOf="parent"
        app:layout_constraintRight_toRightOf="parent"
        app:layout_constraintTop_toTopOf="parent"
-       android:layout_marginTop="@dimen/dp100"
-
-
 
        />
 
-
    <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/tvWelcome"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-      android:text="GATEWAY TO THE GREENS"
-      android:textColor="@color/white"
-      app:layout_constraintLeft_toLeftOf="parent"
-       android:textSize="@dimen/sp18"
-       app:layout_constraintRight_toRightOf="parent"
-       app:layout_constraintBottom_toTopOf="@+id/tv_version"
-       android:layout_marginBottom="@dimen/dp7"
-
-      />
-
-   <androidx.appcompat.widget.AppCompatTextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="Version: 1.1.1"
-       android:id="@+id/tv_version"
+       android:layout_marginTop="@dimen/dp15"
+       android:text="Welcome To"
        android:textColor="@color/white"
+       android:textSize="@dimen/sp20"
        app:layout_constraintLeft_toLeftOf="parent"
-       android:textSize="@dimen/sp14"
        app:layout_constraintRight_toRightOf="parent"
-       app:layout_constraintBottom_toBottomOf="parent"
-       android:layout_marginBottom="@dimen/dp20"
+       app:layout_constraintTop_toBottomOf="@+id/ivlogo" />
 
-       />
+   <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/tvAppName"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="@dimen/dp7"
+       android:text="MedXPlain"
+       android:textColor="@color/white"
+       android:textSize="@dimen/sp30"
+       android:textStyle="bold"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/tvWelcome" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

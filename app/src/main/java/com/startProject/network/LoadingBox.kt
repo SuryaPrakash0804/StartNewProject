@@ -1,4 +1,4 @@
-package com.medxplain.network
+package com.startProject.network
 
 import android.app.Dialog
 import android.content.Context
@@ -6,9 +6,9 @@ import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.util.Log
 import android.widget.RelativeLayout
-import com.medxplain.R
-import com.medxplain.utils.hide
-import com.medxplain.utils.visible
+import com.startProject.R
+import com.startProject.utils.hide
+import com.startProject.utils.visible
 
 import dagger.hilt.android.qualifiers.ApplicationContext
 import java.lang.Exception

@@ -1,4 +1,4 @@
-package com.medxplain.ui.activity
+package com.startProject.ui.activity
 
 import android.content.Context
 import android.content.Intent
@@ -7,8 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.annotation.Nullable
 import androidx.annotation.RequiresApi
-import com.medxplain.R
-import com.medxplain.utils.LocaleHelper
+import com.startProject.R
+import com.startProject.utils.LocaleHelper
 
 
 
